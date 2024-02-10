@@ -2,10 +2,11 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
-import { topMeals } from './topMeals';
+//import { topMeals } from './topMeals';
 import CarouselItem from './carouselItem';
 
-const multiItemcarousel = () => {
+const multiItemcarousel = ({items}) => {
+  console.log(items)
     const settings = {
         dots: false,
         infinite: true,
@@ -19,7 +20,7 @@ const multiItemcarousel = () => {
   return (
     <div>
       <Slider {...settings}>
-      {topMeals.map((item)=>
+      {items.map((item)=>
          <CarouselItem  image={item.image} title={item.title}/>
         )}
       </Slider>

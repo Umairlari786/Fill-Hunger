@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css'
 import MultiItemcarousel from './multiItemcarousel.jsx'
+import { topMeals } from './topMeals';
+//import { homepageBanner } from './homepageBanner.jsx';
 const Home = () => {
   return (
     <div>
@@ -10,14 +12,15 @@ const Home = () => {
                 <p className='z-10 text-gray-300 text-xl lg:text-4xl'>Best Taste Ever,fast delivary, with best quality</p> 
                 </div>
                 <div className='cover absolute top-0 left-0 right-0'></div>
-                <div className='fadeout'></div>
+  <div className='fadeout'></div>
+{/*<MultiItemcarousel items1={homepageBanner}/>*/}
         </section>
 
         <section className='p-10 lg:py-10 lg:px-20'>
             <div className=''>
             <p className='text-2xl font-semibold text-gray-400 py-3 pb-10'>Top</p>
             </div>   
-            <MultiItemcarousel />
+            <MultiItemcarousel items={topMeals}/>
         </section>
       
     </div>
