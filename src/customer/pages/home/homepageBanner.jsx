@@ -1,0 +1,32 @@
+export const homepageBanner =[
+    {
+        image:"https://tse3.mm.bing.net/th?id=OIP.6MzdpxyZefCGO-k2BCL2igHaEK&pid=Api&P=0&h=220",
+    },
+    {
+        image:"https://tse4.mm.bing.net/th?id=OIP.LblIWdLodl76RjWdB_YUqwHaEK&pid=Api&P=0&h=220",
+    },
+    {
+        image:"https://tse2.mm.bing.net/th?id=OIP.G1l1xLYevCvPgViC9IDw6AHaFG&pid=Api&P=0&h=220",
+    },
+    {
+        image:"https://tse3.mm.bing.net/th?id=OIP.kVUIl6WbLogr9l6grysKSAHaEK&pid=Api&P=0&h=220",
+    },
+    {
+        image:"https://tse2.mm.bing.net/th?id=OIP.-74oOOBTp2YSzPUdlP6ovQHaEK&pid=Api&P=0&h=220",
+    },
+    {
+        image:"https://tse3.mm.bing.net/th?id=OIP.xRI_WeV781p_W7Qt-BQXhAHaEK&pid=Api&P=0&h=220",
+    },
+    {
+        image:"https://tse2.mm.bing.net/th?id=OIP.5Qi3KqFZDFjOW1j51N_x0wHaEd&pid=Api&P=0&h=220",
+    },
+    {
+        image:"https://tse1.mm.bing.net/th?id=OIP.dAwpD5xrPNSDV10bs8ulqQHaEK&pid=Api&P=0&h=220",
+    },
+    {
+        image:"https://tse4.mm.bing.net/th?id=OIP.3V2fvdA6O0fSG6qGMyMeZwHaEo&pid=Api&P=0&h=220",
+    },
+    {
+        image:"https://tse4.mm.bing.net/th?id=OIP.gRTUjLZuRRkVGzO8aECYiQHaEK&pid=Api&P=0&h=220",
+    },
+]

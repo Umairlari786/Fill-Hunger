@@ -1,14 +1,15 @@
 .banner{
-    background-image: url("https://img.freepik.com/free-photo/flat-lay-tomato-salad-with-feta-cheese-rucola-copy-space_23-2148700403.jpg?w=1380&t=st=1707421495~exp=1707422095~hmac=350d2f9d05e3556375698c419d62adfca947a0ea8ea0a25f7bdc072ebf825871");
+    background-image: url("https://wallpapercave.com/wp/wp3108438.jpg");
     background-size: cover;
-    width: 100%;
-    height: 90vh;
+    width: 100vw;
+    height: 95vh;
     background-repeat: no-repeat;
+    
 }
 
 .cover{
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     background-color: black;
     opacity: 0.4;
 }
